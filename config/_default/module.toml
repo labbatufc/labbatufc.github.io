@@ -1,0 +1,6 @@
+[module]
+  proxy = "direct"
+  noProxy = "*"
+
+[[imports]]
+  path = "github.com/wowchemy/wowchemy-hugo-modules"

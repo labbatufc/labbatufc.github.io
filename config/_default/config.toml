@@ -1,0 +1,31 @@
+baseURL = "https://labbatufc.github.io/"
+title = "Lab BAT UFC"
+#theme = "wowchemy"
+languageCode = "pt-br"
+defaultContentLanguage = "pt"
+hasCJKLanguage = false
+enableRobotsTXT = true
+enableEmoji = true
+
+[pagination]
+  paginate = 10
+
+[module]
+  replacements = "github.com/wowchemy/wowchemy-hugo-modules -> github.com/wowchemy/wowchemy-hugo-modules@latest"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  favicon = "images/icon.png"
+  date_format = "2 Jan 2006"
+  time_format = "15:04"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
