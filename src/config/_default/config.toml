@@ -1,0 +1,27 @@
+baseURL = "https://labbatufc.github.io/"
+languageCode = "pt-br"
+title = "Grupo de Bioarqueologia Translacional da UFC"
+theme = "hugo-blox-builder"
+paginate = 10
+
+[menu]
+  [[menu.main]]
+    name = "Início"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Sobre"
+    url = "/about/"
+    weight = 2
+  [[menu.main]]
+    name = "Publicações"
+    url = "/publication/"
+    weight = 3
+  [[menu.main]]
+    name = "Projetos"
+    url = "/project/"
+    weight = 4
+  [[menu.main]]
+    name = "Contato"
+    url = "/contact/"
+    weight = 5
