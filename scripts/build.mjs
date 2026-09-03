@@ -23,4 +23,5 @@ for (const file of [
 ]) {
   await cp(new URL(`../media/${file}`, import.meta.url), new URL(`../dist/media/${file}`, import.meta.url));
 }
-await cp(new URL("../fonts/", import.meta.url), new URL("../dist/fonts/", import.meta.url), { recursive: true });
+await mkdir(new URL("../dist/fonts/", import.meta.url), { recursive: true });
+await cp(new URL("../fonts/Puhuiti-subset.ttf", import.meta.url), new URL("../dist/fonts/Puhuiti-subset.ttf", import.meta.url));
