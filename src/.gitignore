@@ -1,9 +1,0 @@
-/public/
-/resources/
-/hugo_stats.json
-
-# macOS
-.DS_Store
-
-# VSCode
-.vscode/
